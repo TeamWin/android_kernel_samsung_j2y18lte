@@ -118,7 +118,7 @@ struct fsg_config {
 	unsigned int		fsg_num_buffers;
 };
 
-#ifdef CONFIG_USB_ANDROID_SAMSUNG_COMPOSITE
+//#ifdef CONFIG_USB_ANDROID_SAMSUNG_COMPOSITE
 /* Data shared by all the FSG instances. */
 struct fsg_common {
 	struct usb_gadget	*gadget;
@@ -189,7 +189,7 @@ struct fsg_common {
 };
 
 
-#endif
+//#endif
 
 static inline struct fsg_opts *
 fsg_opts_from_func_inst(const struct usb_function_instance *fi)

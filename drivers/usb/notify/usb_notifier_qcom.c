@@ -343,8 +343,8 @@ static int qcom_set_peripheral(bool enable)
 	else
 		pr_err("usb: %s power supply is null!\n", PSY_NAME);
 
-    if(!enable)
-        set_ncm_ready(false);
+    //if(!enable)
+        //set_ncm_ready(false);
 
 	return 0;
 }
